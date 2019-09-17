@@ -1,0 +1,30 @@
+header {
+  .inner-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 3vw;
+    .logo {
+      width: 116px;
+      height: 116px;
+      background: url("/assets/img/png/logo.png");
+      display: block;
+    }
+    nav{
+      ul{
+        display: flex;
+        li{
+          margin-left: 3vw;
+          text-transform: uppercase;
+          a{
+            padding: 23px 10px 27px;
+            display: block;
+            &.active{
+              background-color: #ffe900;
+            }
+          }
+        }
+      }
+    }
+  }
+}
