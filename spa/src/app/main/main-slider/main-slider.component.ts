@@ -20,7 +20,7 @@ export class MainSliderComponent implements OnInit {
         },
         speed: 300,
         initialSlide: 1,
-        slidesPerView: 2,
+        slidesPerView: 1,
         pagination: '.swiper-pagination',
         paginationClickable: true,
         navigation: {

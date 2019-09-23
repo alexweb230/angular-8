@@ -12,4 +12,13 @@ export class HeaderComponent implements OnInit {
   ngOnInit() {
   }
 
+  navTitle = [
+      'HOME',
+      'PORTFOLIO',
+      'BLOG',
+      'bout us',
+      'CONTACT'
+
+  ]
+
 }
