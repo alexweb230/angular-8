@@ -1,0 +1,18 @@
+
+.main-slider{
+
+  .swiper-button-prev{
+    background: black url("/assets/img/svg/left-arrow.svg") center center no-repeat;
+    background-size: 70%;
+   
+    left: 0;
+    height: 101px;
+    width: 46px;
+  }
+  .swiper-button-next{
+    right: 0;
+    left: initial;
+    @extend  .swiper-button-prev;
+    transform: rotateY(180deg);
+  }
+}
