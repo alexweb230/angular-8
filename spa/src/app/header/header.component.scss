@@ -1,10 +1,10 @@
-header {
 
+header {
   .inner-header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-top: 3vw;
+    padding-top: 2.2vw;
     .logo {
       width: 116px;
       height: 116px;
@@ -12,13 +12,25 @@ header {
       display: block;
     }
     nav{
+      font-size: 16px;
       ul{
         display: flex;
         li{
           margin-left: 3vw;
           text-transform: uppercase;
+          text-shadow:
+                  0 0 0 black,
+                  0 0 0 black,
+                  0 0 0 black,
+                  0 0 0 black,
+                  0 0 0 black,
+                  0 0 0 black;
+          letter-spacing: 1.8px;
+          &:nth-child(1){
+            margin-left: 0;
+          }
           a{
-            padding: 23px 10px 27px;
+            padding:  26px 9px;
             display: block;
             &.active{
               background-color: #ffe900;

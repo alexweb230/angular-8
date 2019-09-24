@@ -1,9 +1,14 @@
+@import "../../../assets/scss/utilites/_vars.scss";
+
 .main-slider {
   .slider-inner {
     background: url("/assets/img/jpg/bg.jpg") no-repeat center;
     background-size: cover;
     height: 37.7vw;
   }
+}
 
+h1{
+  font-family: $gotic;
 }
 

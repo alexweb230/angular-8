@@ -14,15 +14,17 @@ export class MainSliderComponent implements OnInit {
 
 
     config =  {
-        autoplay: {
-            delay: 2500,
-            disableOnInteraction: false,
-        },
+        // autoplay: {
+        //     delay: 2500,
+        //     disableOnInteraction: false,
+        // },
         speed: 300,
         initialSlide: 1,
         slidesPerView: 1,
-        pagination: '.swiper-pagination',
-        paginationClickable: true,
+        pagination:{
+            el: '.swiper-pagination',
+            clickable: true,
+        },
         navigation: {
             nextEl: '.swiper-button-next',
             prevEl: '.swiper-button-prev',
@@ -30,5 +32,8 @@ export class MainSliderComponent implements OnInit {
         spaceBetween: 300,
         loop: true
     };
+
+
+
 
 }
